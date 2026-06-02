@@ -1,5 +1,9 @@
 # Caesar Chess Engine (v1.0)
 
+<p align="center">
+  <img src="docs/images/banner.png" alt="Caesar Chess Engine" width="650" />
+</p>
+
 Caesar is a high-performance, command-line chess engine written in C. It represents chess state using a hybrid **Mailbox 10x12 (120-square) representation** mapped to **64-bit Bitboards** for optimized pawn and attack calculations. Caesar implements a complete classical computer chess architecture: iterative deepening minimax search, alpha-beta pruning, transposition tables, sophisticated move ordering, and positional heuristics.
 
 ---
